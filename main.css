@@ -1,0 +1,30 @@
+
+body {
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: url(bg-image.png) no-repeat 50%;
+}
+#map_canvas {
+    height: 80% ;
+   
+}
+
+.container{
+    height: 5%;
+    
+}
+
+
+/*footer styles */
+
+footer {
+    background-image: url(transparent.jpg);
+ padding: 25px 0;
+    color: #bbc;
+    font-size: 0.75em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+    height: 5px;
+}
+

@@ -3,8 +3,32 @@
 <html>
  <head>
      <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
- <style type="text/css">
-
+  <section class ="container">
+     
+      <script type="text/javascript"
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvl2hSt80CxZA0Ww8CAsZ6YD-dGizqtNo
+&sensor=true">
+ </script> 
+        <link rel="stylesheet" href="main.css">
+      </section>
+    </head>
+    
+ <body onload="initialize()">
+     <div id="mapCanvas" style="width: 85%; height: 85%;">map div</div>
+     <button onclick="showJFK()">Locate JFK Airport</button>
+    <button onclick="showSecondLocation()">Locate Australia </button>
+    <button onclick="showThirdLocation()">Locate Iran</button>
+    <button onclick="showFourthLocation()">Locate Canbera</button>
+    <button onclick="showFifthLocation()">Locate Prince Ed Island</button>
+    <button onclick="showSixthLocation()">Locate Massachussets </button>
+    <footer>
+        <p>
+            Select the location above.</p>
+          <p>&copy; 
+            Developed by Faras Maroge. 2020</p>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>-->
+    <script src="ip.js"></script>
 </body>
 
 </html>

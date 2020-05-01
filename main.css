@@ -1,11 +1,17 @@
+html { 
+    height: 100%;
+}
+
 
 body {
     font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: url(bg-image.png) no-repeat 50%;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
 }
 #map_canvas {
-    height: 80% ;
-   
+    height: 80% ;   
 }
 
 .container{

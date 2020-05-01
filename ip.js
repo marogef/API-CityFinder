@@ -23,3 +23,53 @@ var myMap;
  myMap = new google.maps.Map(document.getElementById("mapCanvas"),
 mapOptions);
 }
+       function showJFK(){
+ var JFKmarker = new google.maps.Marker({
+position: JFK,
+map:myMap,
+title: "JFK Internatioan Airport",
+animation:google.maps.Animation.DROP
+});
+}
+          function showSecondLocation(){
+ var secondMarker = new google.maps.Marker({
+position: JFK2,
+map:myMap,
+title: "JFK Internatioan Airport",
+animation:google.maps.Animation.DROP
+});
+}
+         
+ function showThirdLocation(){
+ var thirdMarker = new google.maps.Marker({
+position: JFK3,
+map:myMap,
+title: "JFK Internatioan Airport",
+animation:google.maps.Animation.DROP
+});
+}
+      
+          function showFourthLocation(){
+ var fourthMarker = new google.maps.Marker({
+position: JFK4,
+map:myMap,
+title: "JFK Internatioan Airport",
+animation:google.maps.Animation.DROP
+});
+}
+             function showFifthLocation(){
+ var fifthMarker = new google.maps.Marker({
+position: JFK5,
+map:myMap,
+title: "JFK Internatioan Airport",
+animation:google.maps.Animation.DROP
+});
+} 
+                      function showSixthLocation(){
+ var sixthMarker = new google.maps.Marker({
+position: JFK6,
+map:myMap,
+title: "JFK Internatioan Airport",
+animation:google.maps.Animation.DROP
+});
+}  

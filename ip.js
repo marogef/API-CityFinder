@@ -3,7 +3,7 @@
          var JFK2 = new google.maps.LatLng(40.725192, -73.988908);
          var JFK3 = new google.maps.LatLng(40.736364, -74.002043);
          var JFK3 = new google.maps.LatLng(40.709824, -74.005288);
-         var JFK4 = new google.maps.LatLng(40.715321, -74.000052);
+         var JFK4 = new google.maps.LatLng(40.715366, -73.999928);
          var JFK5 = new google.maps.LatLng(40.736639, -73.990336);
          var JFK6 = new google.maps.LatLng(40.723563, -74.001344);
          var JFKmarker;

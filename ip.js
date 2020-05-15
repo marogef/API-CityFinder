@@ -1,10 +1,10 @@
  var center = new google.maps.LatLng(40.71132694444444,-73.898610);
          var JFK = new google.maps.LatLng(40.6397511,-73.7789256);
-         var JFK2 = new google.maps.LatLng(-34, 151);
-         var JFK3 = new google.maps.LatLng(30, 60);
-         var JFK4 = new google.maps.LatLng(-35, 150);
-         var JFK5 = new google.maps.LatLng(45.71132694444444,-63.898610);
-         var JFK6 = new google.maps.LatLng(42.71132694444444,-72.898610);
+         var JFK2 = new google.maps.LatLng(40.790537,-73.958288);
+         var JFK3 = new google.maps.LatLng(40.871616,-73.924339);
+         var JFK4 = new google.maps.LatLng(40.876269,-73.920873);
+         var JFK5 = new google.maps.LatLng(40.876732,-73.895718);
+         var JFK6 = new google.maps.LatLng(40.887407,-73.872283);
          var JFKmarker;
          var secondLocation;
          var thirdLocation;

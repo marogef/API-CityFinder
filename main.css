@@ -71,29 +71,33 @@ body {
 
 /*media queries*/
 @media only screen and (max-width: 768px) {
+    html
+    {
+        height: 80%;
+    }
     .mainButtons{
  width: 100%;
 }
-    #mapCanvas{   
-        height: 80%;
-    }
+
 }
 
 @media only screen and (max-width: 450px) {
-    .mainButtons{
-        width:40%;
-    }
-    #mapCanvas{
-        height: 77%;
-    }
-}
-@media only screen and (max-width: 320px) {
-
-    .mainButtons{
-        width: 30%;
-}
-    #mapCanvas
+    html
     {
         height: 77%;
     }
+    .mainButtons{
+        width:40%;
+    }
+  
+}
+@media only screen and (max-width: 320px) {
+    html
+    {
+        height: 75%;
+    }
+    .mainButtons{
+        width: 30%;
+}
+
 }

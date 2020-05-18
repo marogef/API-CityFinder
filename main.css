@@ -21,25 +21,12 @@ html {
 
 body {
     font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-/*    background-image: url(bg-image.png);*/
+    background: url("bg-image.png") no-repeat;
     height: 100%;
-    margin: 0; 
-    padding: 0;
-     background: url("bg-image.png") no-repeat;
-  overflow: hidden;
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
 }
-/*
-#map_canvas {
-    height: 80% ;   
-}
-*/
 #mapCanvas
 {
-/*    margin-top: 20px;*/
-      display: block;
+ display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -50,55 +37,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-/*    padding-bottom: 500px;*/
 }
 .main{
-/*     color: white;*/
   font-size: 50px;
 }
 
 .container{
-    height: 5%;
-    
-}
-
-
-/*footer styles */
-
-footer {
-    background-image: url(transparent.jpg);
- padding: 25px 0;
-    color: #bbc;
-    font-size: 0.75em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    text-align: center;
-    height: 5px;
-    html { 
-    height: 100%;
-}
-
-
-body {
-    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-/*    background-image: url(bg-image.png);*/
-    height: 100%;
-    margin: 0; 
-    padding: 0;
-     background: url("bg-image.png") no-repeat;
-  overflow: hidden;
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
-}
-#map_canvas {
-    height: 80% ;   
+    padding-bottom: 50px;    
 }
 #mapCanvas
 {
-/*    margin-top: 20px;*/
-      display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -108,10 +56,11 @@ body {
  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 60%;
+    padding-bottom: 50px; 
 }
 .main{
-     color: white;
+  color: white;
   font-size: 50px;
 }
 

@@ -1,11 +1,10 @@
  var center = new google.maps.LatLng(40.71132694444444,-73.898610);
-         var JFK = new google.maps.LatLng(40.6397511,-73.7789256);
-         var JFK2 = new google.maps.LatLng(40.725192, -73.988908);
-         var JFK3 = new google.maps.LatLng(40.736364, -74.002043);
-         var JFK3 = new google.maps.LatLng(40.709824, -74.005288);
-         var JFK4 = new google.maps.LatLng(40.715366, -73.999928);
-         var JFK5 = new google.maps.LatLng(40.736639, -73.990336);
-         var JFK6 = new google.maps.LatLng(40.723563, -74.001344);
+         var locationOne = new google.maps.LatLng(40.762748, -73.921438);
+         var locationTwo = new google.maps.LatLng(40.739892, -73.921229);
+         var locationThree = new google.maps.LatLng(40.664517, -73.909919);
+         var locationFour = new google.maps.LatLng(40.715190, -73.873545);
+         var locationFive = new google.maps.LatLng(40.749359, -73.914804);
+         var locationSix = new google.maps.LatLng(40.754283, -73.883402);
          var JFKmarker;
          var secondLocation;
          var thirdLocation;
@@ -16,61 +15,61 @@
 var myMap;
 
  function initialize() {
- var mapOptions = {
- zoom: 12,
- center: center,
- mapTypeId: google.maps.MapTypeId.ROADMAP,
- };
- myMap = new google.maps.Map(document.getElementById("mapCanvas"),
-mapOptions);
+     var mapOptions = {
+     zoom: 12,
+     center: center,
+     mapTypeId: google.maps.MapTypeId.ROADMAP,
+     };
+     myMap = new google.maps.Map(document.getElementById("mapCanvas"),
+    mapOptions);
 }
        function showJFK(){
  var JFKmarker = new google.maps.Marker({
-position: JFK,
+position: locationOne,
 map:myMap,
-title: "JFK Internatioan Airport",
+title: "Astoria",
 animation:google.maps.Animation.DROP
 });
 }
           function showSecondLocation(){
  var secondMarker = new google.maps.Marker({
-position: JFK2,
+position: locationTwo,
 map:myMap,
-title: "JFK Internatioan Airport",
+title: "Sunnyside",
 animation:google.maps.Animation.DROP
 });
 }
          
  function showThirdLocation(){
  var thirdMarker = new google.maps.Marker({
-position: JFK3,
+position: locationThree,
 map:myMap,
-title: "JFK Internatioan Airport",
+title: "Brownsville",
 animation:google.maps.Animation.DROP
 });
 }
       
           function showFourthLocation(){
  var fourthMarker = new google.maps.Marker({
-position: JFK4,
+position: locationFour,
 map:myMap,
-title: "JFK Internatioan Airport",
+title: "Middle Village",
 animation:google.maps.Animation.DROP
 });
 }
              function showFifthLocation(){
  var fifthMarker = new google.maps.Marker({
-position: JFK5,
+position: locationFive,
 map:myMap,
-title: "JFK Internatioan Airport",
+title: "Sunnyside gardens",
 animation:google.maps.Animation.DROP
 });
 } 
                       function showSixthLocation(){
  var sixthMarker = new google.maps.Marker({
-position: JFK6,
+position: locationSix,
 map:myMap,
-title: "JFK Internatioan Airport",
+title: "Jackson Heights",
 animation:google.maps.Animation.DROP
 });
 }  

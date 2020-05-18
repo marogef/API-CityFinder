@@ -31,9 +31,11 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+/*
 #map_canvas {
     height: 80% ;   
 }
+*/
 #mapCanvas
 {
 /*    margin-top: 20px;*/
@@ -123,17 +125,26 @@ body {
     .mainButtons{
  width: 100%;
 }
+    #mapCanvas{   
+        height: 80%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
-     .mainButtons{
+    .mainButtons{
         width:40%;
     }
+    #mapCanvas{
+        height: 77%;
     }
+}
 @media only screen and (max-width: 320px) {
 
     .mainButtons{
- width: 30%;
+        width: 30%;
 }
-    
+    #mapCanvas
+    {
+        height: 77%;
+    }
 }

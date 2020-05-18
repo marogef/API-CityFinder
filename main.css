@@ -38,6 +38,10 @@ body {
   margin-right: auto;
   width: 60%;
 }
+.mainButtons button{
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
 .main{
   font-size: 50px;
 }
@@ -73,10 +77,10 @@ body {
 @media only screen and (max-width: 768px) {
     html
     {
-        height: 80%;
+        height: 87%;
     }
     .mainButtons{
- width: 100%;
+        width: 100%;
 }
 
 }
@@ -84,7 +88,7 @@ body {
 @media only screen and (max-width: 450px) {
     html
     {
-        height: 77%;
+        height: 85%;
     }
     .mainButtons{
         width:40%;
@@ -94,7 +98,7 @@ body {
 @media only screen and (max-width: 320px) {
     html
     {
-        height: 75%;
+        height: 80%;
     }
     .mainButtons{
         width: 30%;

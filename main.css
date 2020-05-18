@@ -47,7 +47,16 @@ body {
 }
 
 .container{
-    padding-bottom: 50px;    
+    padding-bottom: 10px;
+}
+ .container h1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  color: white;
+  background-color: lightsteelblue;
+
+
 }
 #mapCanvas
 {
